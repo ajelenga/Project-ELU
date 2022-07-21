@@ -1,0 +1,13 @@
+{% extends "index.html" %}
+
+{% block filecsv %}
+  <table id="demo">
+  {% for row in csv %}
+    <tr>
+    {% for col in row.split(",") %}
+    <td>{{ col }}</td>
+    {% endfor %}
+    </tr>
+  {% endfor %}
+  </table>
+{% endblock %}

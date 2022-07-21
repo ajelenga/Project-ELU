@@ -1,0 +1,45 @@
+body {
+    text-align: center;
+    color: #2C495B;
+}
+
+.header{
+    background-color: #E7F4F8;
+    height: 100vh;
+}
+
+.boxTitle{
+    text-align: center;
+    background-color: #FF4B21;
+    font-size: 2em;
+}
+
+.fontColor{
+    color: white;
+}
+
+.div-front{
+    padding-top:4% ;
+}
+
+
+.button {
+    background-color: #FF4B21; 
+    border: none;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    border-right: 10ch;
+    font-size: 16px;
+    border-radius: 5px 10px 10px 5px;
+    font-size: small;
+  }
+
+ .img-search{
+    width: 15px;
+    height: 15px;
+ } 
+
+.fontTilteFilter{
+    color: rgba(64, 80, 88, 0.8);
+}

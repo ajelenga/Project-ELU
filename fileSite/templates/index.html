@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{% block bodyFront %}
+    <div class="header">
+        <div class=" div-front">
+            <div class="row">
+                <div class="col-md-3">
+                    <section class="input-section container">
+                        <div>
+                            <h1 class="fontTilteFilter" >Filtres</h1>
+                        </div>
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="Recherchez une localité " aria-label="Recipient's username" aria-describedby="button-addon2">
+                            <button class="button" type="button" > <img  class="img-search" src="/static/img/search-3-24.png"></button>
+                        </div>
+                        {% block filecsv %}
+                        {% endblock %}
+
+                    </section>
+                </div>
+                <div class="col-md-9">
+                    <section class="input-section container">
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="Recherchez par nom, prénom " aria-label="Recipient's username" aria-describedby="button-addon2">
+                            <button class="button" type="button" > <img  class="img-search" src="/static/img/search-3-24.png"> RECHERCHER</button>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
